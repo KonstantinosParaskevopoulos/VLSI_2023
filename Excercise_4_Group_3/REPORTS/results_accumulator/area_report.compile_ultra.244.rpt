@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : accumulator
+Version: T-2022.03-SP5
+Date   : Wed May 17 15:17:09 2023
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                           46
+Number of nets:                           214
+Number of cells:                          179
+Number of combinational cells:            136
+Number of sequential cells:                43
+Number of macros/black boxes:               0
+Number of buf/inv:                         28
+Number of references:                      20
+
+Combinational area:                151.398720
+Buf/Inv area:                       19.828800
+Noncombinational area:             260.807038
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   412.205758
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+accumulator                        412.2058    100.0  151.3987   260.8070  0.0000  accumulator
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 151.3987   260.8070  0.0000
+
+1

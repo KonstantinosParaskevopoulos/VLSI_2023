@@ -1,0 +1,33 @@
+Warning: Design 'accumulator' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : accumulator
+Version: T-2022.03-SP5
+Date   : Wed May 17 03:04:45 2023
+****************************************
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7
+Wire Load Model Mode: top
+
+  Startpoint: sum_reg_reg[7]
+              (rising edge-triggered flip-flop)
+  Endpoint: sum[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  sum_reg_reg[7]/CLK (ASYNC_DFFHx1_ASAP7_75t_R)           0.00       0.00 r
+  sum_reg_reg[7]/QN (ASYNC_DFFHx1_ASAP7_75t_R)           58.09      58.09 r
+  sum[7] (out)                                            0.00      58.09 r
+  data arrival time                                                 58.09
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

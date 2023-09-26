@@ -1,0 +1,36 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : GCD_full
+Version: T-2022.03-SP5
+Date   : Wed May 17 15:02:23 2023
+****************************************
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7
+Wire Load Model Mode: top
+
+  Startpoint: fsm/state_reg[0]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_ready_reg
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  fsm/state_reg[0]/CLK (ASYNC_DFFHx1_ASAP7_75t_R)         0.00       0.00 r
+  fsm/state_reg[0]/QN (ASYNC_DFFHx1_ASAP7_75t_R)         55.03      55.03 r
+  U337/Y (NAND2xp33_ASAP7_75t_R)                         18.13      73.16 f
+  U343/Y (OR2x2_ASAP7_75t_R)                             49.71     122.87 f
+  U339/Y (INVxp33_ASAP7_75t_R)                           99.42     222.29 r
+  data_ready_reg (out)                                    0.00     222.29 r
+  data arrival time                                                222.29
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

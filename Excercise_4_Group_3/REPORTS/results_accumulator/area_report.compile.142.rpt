@@ -1,0 +1,47 @@
+Warning: Design 'accumulator' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : accumulator
+Version: T-2022.03-SP5
+Date   : Wed May 17 03:15:00 2023
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                           78
+Number of nets:                           136
+Number of cells:                           59
+Number of combinational cells:             44
+Number of sequential cells:                12
+Number of macros/black boxes:               0
+Number of buf/inv:                         18
+Number of references:                       9
+
+Combinational area:                 62.285760
+Buf/Inv area:                       12.597120
+Noncombinational area:              66.718080
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   129.003839
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------
+accumulator                        129.0038    100.0   18.6624    66.7181  0.0000  accumulator
+add_68                              43.6234     33.8   43.6234     0.0000  0.0000  accumulator_DW01_add_0
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------
+Total                                                  62.2858    66.7181  0.0000
+
+1

@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : GCD_full
+Version: T-2022.03-SP5
+Date   : Wed May 17 15:02:23 2023
+****************************************
+
+Library(s) Used:
+
+    asap7 (File: /usr/local/eda/synLibs/asap7/7nm/db/asap7.db)
+
+Number of ports:                          100
+Number of nets:                           790
+Number of cells:                          723
+Number of combinational cells:            624
+Number of sequential cells:                99
+Number of macros/black boxes:               0
+Number of buf/inv:                        189
+Number of references:                      22
+
+Combinational area:                669.513599
+Buf/Inv area:                      133.202882
+Noncombinational area:             600.462716
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1269.976315
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+GCD_full                          1269.9763    100.0  669.5136   600.4627  0.0000  GCD_full
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 669.5136   600.4627  0.0000
+
+1
